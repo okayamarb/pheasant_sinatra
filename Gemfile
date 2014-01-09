@@ -1,6 +1,11 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
+gem 'sinatra-contrib'
+
+gem 'slim'
+gem 'sass'
+gem 'coffee-script'
 
 group :test do
   gem 'rspec'
