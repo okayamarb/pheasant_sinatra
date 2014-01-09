@@ -13,8 +13,8 @@ describe Pheasant do
     it "正常なレスポンスが返ること" do
       should be_ok
     end
-    it "Helloと出力されること" do
-      subject.body.should == "Hello"
+    it "slimと出力されること" do
+      subject.body.should =~ /slim/
     end
   end
 end
