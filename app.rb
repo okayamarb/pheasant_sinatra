@@ -1,8 +1,9 @@
 require 'sinatra'
 require 'sinatra/reloader'
+require 'slim'
 
 get '/' do
-  'Hello world'
+  slim :index
 end
 
 get '/about' do
