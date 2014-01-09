@@ -1,0 +1,22 @@
+# Logfile created on 2014-01-09 21:10:55 +0900 by logger.rb/36483
+I, [2014-01-09T21:10:55.799882 #9581]  INFO -- : 0:  rake (10.1.1) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rake-10.1.1.gemspec
+I, [2014-01-09T21:10:55.800308 #9581]  INFO -- : 0:  backports (3.4.0) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/backports-3.4.0.gemspec
+I, [2014-01-09T21:10:55.800605 #9581]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-09T21:10:55.801103 #9581]  INFO -- : 0:  execjs (2.0.2) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/execjs-2.0.2.gemspec
+I, [2014-01-09T21:10:55.801448 #9581]  INFO -- : 0:  coffee-script (2.2.0) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-09T21:10:55.801782 #9581]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-01-09T21:10:55.802115 #9581]  INFO -- : 0:  multi_json (1.8.2) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-09T21:10:55.802440 #9581]  INFO -- : 0:  rack (1.5.2) from /Users/toyoaki/.gem/ruby/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-09T21:10:55.802765 #9581]  INFO -- : 0:  rack-protection (1.5.1) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-09T21:10:55.803081 #9581]  INFO -- : 0:  rack-test (0.6.2) from /Users/toyoaki/.gem/ruby/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-09T21:10:55.803408 #9581]  INFO -- : 0:  rspec-core (2.14.7) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rspec-core-2.14.7.gemspec
+I, [2014-01-09T21:10:55.803731 #9581]  INFO -- : 0:  rspec-expectations (2.14.4) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rspec-expectations-2.14.4.gemspec
+I, [2014-01-09T21:10:55.804052 #9581]  INFO -- : 0:  rspec-mocks (2.14.4) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rspec-mocks-2.14.4.gemspec
+I, [2014-01-09T21:10:55.804370 #9581]  INFO -- : 0:  rspec (2.14.1) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rspec-2.14.1.gemspec
+I, [2014-01-09T21:10:55.804692 #9581]  INFO -- : 0:  sass (3.2.13) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sass-3.2.13.gemspec
+I, [2014-01-09T21:10:55.805113 #9581]  INFO -- : 0:  tilt (1.4.1) from /Users/toyoaki/.gem/ruby/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-09T21:10:55.805452 #9581]  INFO -- : 0:  sinatra (1.4.4) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-09T21:10:55.805779 #9581]  INFO -- : 0:  sinatra-contrib (1.4.2) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sinatra-contrib-1.4.2.gemspec
+I, [2014-01-09T21:10:55.806103 #9581]  INFO -- : 0:  temple (0.6.7) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/temple-0.6.7.gemspec
+I, [2014-01-09T21:10:55.806428 #9581]  INFO -- : 0:  slim (2.0.2) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/slim-2.0.2.gemspec
+I, [2014-01-09T21:10:55.806742 #9581]  INFO -- : 0:  bundler (1.5.1) from /Users/toyoaki/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
