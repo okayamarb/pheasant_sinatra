@@ -7,3 +7,6 @@ env:
 bundler_args: --without development --path vendor/bundle
 script:
   - "bundle exec rake spec"
+notifications:
+  webhooks:
+    - https://idobata.io/hook/d23ae9ac-fc1e-4220-8770-9b8cfd1d0d17
