@@ -6,7 +6,15 @@ env:
   - DB=postgresql
 bundler_args: --without development --path vendor/bundle
 script:
-  - "bundle exec rake spec"
+  - bundle exec rake spec
 notifications:
   webhooks:
     - https://idobata.io/hook/d23ae9ac-fc1e-4220-8770-9b8cfd1d0d17
+deploy:
+  provider: heroku
+  api_key:
+    secure: a+u/FEJZghZZ73UmxllzOLiCpW9BruiITrjDOeNdotz3Jau+QkedZ3Oe8NuUAKZfeE586k+LT190OxBi0VkmlLqmhGnQuLoh2YdTkzr7uLlWIveMTh/yRThJqioK8BCLoqnjtYBKMOiGrrSKW3C7I3fV7vvEnhT6f7AzSNNW5PA=
+  app:
+    master: pheasant
+  on:
+    repo: okayamarb/pheasant
