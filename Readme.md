@@ -3,3 +3,16 @@
 
 # Pheasant
 グループウェア
+
+## マイグレーション
+
+    $ cp config/database.yml.sample config/database.yml
+
+自分の環境に合わせて database.yml を編集する。
+
+    $ RACK_ENV=development bundle exec rake db:create_migration NAME=create_users
+
+db/migrate 以下に migration ファイルが出来るので編集する。
+
+    $ RACK_ENV=development bundle exec rake db:migrate
+
