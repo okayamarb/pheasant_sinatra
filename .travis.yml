@@ -5,6 +5,9 @@ rvm:
 env:
   - DB=postgresql
 bundler_args: --without development --path vendor/bundle
+before_script:
+  - cp config/database.yml{.sample,}
+  - psql -c 'create database pheasant_test;' -U postgres
 script:
   - RACK_ENV=test bundle exec rake db:migrate
   - RACK_ENV=test bundle exec rake spec
