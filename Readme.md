@@ -16,3 +16,7 @@ db/migrate 以下に migration ファイルが出来るので編集する。
 
     $ RACK_ENV=development bundle exec rake db:migrate
 
+## アプリケーション起動
+
+    $ RACK_ENV=development bundle exec rackup
+    
