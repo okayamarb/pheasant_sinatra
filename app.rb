@@ -6,6 +6,8 @@ require 'sass'
 require 'active_record'
 require 'pg'
 
+require './model/user'
+
 # DB設定ファイルの読み込み
 ActiveRecord::Base.configurations = YAML.load_file(File.join(File.dirname(__FILE__), 'config', 'database.yml'))
 ActiveRecord::Base.establish_connection(ENV['RACK_ENV'])
@@ -31,7 +33,7 @@ class Pheasant < Sinatra::Base
   end
 
   get '/users.json' do
-
+    User.all.to_json
   end
 end
 
