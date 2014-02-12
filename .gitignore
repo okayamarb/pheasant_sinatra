@@ -1,5 +1,6 @@
 .DS_Store
 *.iml
-.idea
+.idea/
 .bundle/
 .sass-cache/
+config/database.yml

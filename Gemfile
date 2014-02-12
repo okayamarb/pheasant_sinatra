@@ -8,6 +8,8 @@ gem 'sass'
 gem 'coffee-script'
 
 gem 'rake'
+gem 'pg'
+gem 'sinatra-activerecord'
 
 group :test do
   gem 'rspec'

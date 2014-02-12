@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: pheasant_dev
+  username: postgres
+  encoding: unicode
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: pheasant_test
+  username: postgres
+  encoding: unicode
+  host: localhost

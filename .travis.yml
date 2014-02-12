@@ -1,12 +1,15 @@
 language: ruby
 rvm:
-  - 2.0.0
   - 2.1.0
 env:
   - DB=postgresql
 bundler_args: --without development --path vendor/bundle
+before_script:
+  - cp config/database.yml{.sample,}
+  - psql -c 'create database pheasant_test;' -U postgres
 script:
-  - bundle exec rake spec
+  - RACK_ENV=test bundle exec rake db:migrate
+  - RACK_ENV=test bundle exec rake spec
 notifications:
   webhooks:
     - https://idobata.io/hook/d23ae9ac-fc1e-4220-8770-9b8cfd1d0d17
