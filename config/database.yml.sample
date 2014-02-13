@@ -1,13 +1,13 @@
 development:
   adapter: postgresql
   database: pheasant_dev
-  username: postgres
+  username: <%= ENV['USER'] %>
   encoding: unicode
   host: localhost
 
 test:
   adapter: postgresql
   database: pheasant_test
-  username: postgres
+  username: <%= ENV['USER'] %>
   encoding: unicode
   host: localhost

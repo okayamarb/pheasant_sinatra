@@ -3,14 +3,10 @@ require 'sinatra/reloader'
 require 'slim'
 require 'coffee-script'
 require 'sass'
-require 'active_record'
-require 'pg'
+require './db_initialize'
 
 require './model/user'
 
-# DB設定ファイルの読み込み
-ActiveRecord::Base.configurations = YAML.load_file(File.join(File.dirname(__FILE__), 'config', 'database.yml'))
-ActiveRecord::Base.establish_connection(ENV['RACK_ENV'])
 
 class CoffeeRoute < Sinatra::Base
   get '/coffee/application' do
