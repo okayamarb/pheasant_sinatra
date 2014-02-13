@@ -20,7 +20,6 @@ class ScssRoute < Sinatra::Base
   end
 end
 
-
 class Pheasant < Sinatra::Base
   use CoffeeRoute
   use ScssRoute
