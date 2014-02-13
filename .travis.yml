@@ -21,3 +21,5 @@ deploy:
     master: pheasant
   on:
     repo: okayamarb/pheasant
+  run:
+    - "rake db:migrate"
