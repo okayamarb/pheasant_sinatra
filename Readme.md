@@ -20,3 +20,4 @@ db/migrate 以下に migration ファイルが出来るので編集する。
 
     $ RACK_ENV=development bundle exec rackup
     
+追記
